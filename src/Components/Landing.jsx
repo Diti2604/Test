@@ -1,5 +1,6 @@
 import React from "react";
 import logo from "../assets/logo.png";
+import shirt from "../assets/shirt.png";
 
 function Landing() {
   return (
@@ -32,14 +33,14 @@ function Landing() {
               </div>
             </div>
             <div className="card">
-              <img src={logo} alt="" />
+              <img src={shirt} alt="" />
               <div className="card-content">
                 <h3>First Item</h3>
                 <p>$9.99</p>
               </div>
             </div>
             <div className="card">
-              <img src={logo} alt="" />
+              <img src={shirt} alt="" />
               <div className="card-content">
                 <h3>First Item</h3>
                 <p>$9.99</p>
