@@ -9,10 +9,49 @@ function Landing() {
           <div className="header_description">
             <h1>Women</h1>
           </div>
-          <div className="product-card">
-              <img className="product-card__image" alt="logo" src={logo} />
-              <p className="product-card__name">Name</p>
-              <p className="product-card__price">Price</p>
+          <div className="card-container">
+            <div className="card">
+              <img src={logo} alt="" />
+              <div className="card-content">
+                <h3>First Item</h3>
+                <p>$9.99</p>
+              </div>
+            </div>
+            <div className="card">
+              <img src={logo} alt="" />
+              <div className="card-content">
+                <h3>First Item</h3>
+                <p>$9.99</p>
+              </div>
+            </div>
+            <div className="card">
+              <img src={logo} alt="" />
+              <div className="card-content">
+                <h3>First Item</h3>
+                <p>$9.99</p>
+              </div>
+            </div>
+            <div className="card">
+              <img src={logo} alt="" />
+              <div className="card-content">
+                <h3>First Item</h3>
+                <p>$9.99</p>
+              </div>
+            </div>
+            <div className="card">
+              <img src={logo} alt="" />
+              <div className="card-content">
+                <h3>First Item</h3>
+                <p>$9.99</p>
+              </div>
+            </div>
+            <div className="card">
+              <img src={logo} alt="" />
+              <div className="card-content">
+                <h3>First Item</h3>
+                <p>$9.99</p>
+              </div>
+            </div>
           </div>
         </div>
       </header>
